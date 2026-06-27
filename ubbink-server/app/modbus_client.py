@@ -42,6 +42,7 @@ class ModbusController:
             "extract_airflow_preset": self.device.get_extract_airflow_preset(),
             "airflow_mode": self.device.get_airflow_mode(),
             "bypass_status": self.device.get_bypass_status(),
+            "bypass_mode": self.device.get_bypass_mode(),
             "filter_status": self.device.get_filter_status(),
         }
 
